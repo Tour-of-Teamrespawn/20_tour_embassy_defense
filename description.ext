@@ -1,0 +1,78 @@
+class Header
+{
+	gameType = Coop;
+	minPlayers = 1;
+	maxPlayers = 30; 
+};
+
+disabledAI = true; 
+enableDebugConsole = 1;
+
+respawn = 3;
+respawnDelay = 30;
+respawnDialog = 1;
+respawnTemplates[] = {"tickets"};
+respawnVehicleDelay = 30;
+
+#include "scripts\TOUR_RC\dialog\hpp\admintool.hpp"
+
+class Params
+{
+	class TOUR_param_Respawn
+	{
+		//paramsArray[0]
+		title = "Respawn Time (s):";
+		values[] = {0, 30, 60, 300, 600, 900};
+		default = 30;
+		texts[] = {"None", "30 Seconds", "1 Minute", "5 Minutes", "10 Minutes", "15 Minutes"};
+	};
+	
+	class TOUR_param_tickets
+	{
+		//paramsArray[1]
+		title = "Lives:";
+		values[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 100};
+		default = 1;
+		texts[] = {"1", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "20", "30", "40", "50", "100"};
+	};
+};
+
+class CfgDebriefing
+{  
+	class complete
+	{
+		title = "Mission Accomplished";
+		subtitle = "AMBASSADOR SAFE";
+		description = "Reinforcements have arrived! You have successfully defended the embassy.";
+		pictureBackground = "";
+		picture = "b_inf";
+		pictureColor[] = { 0.0, 0.3, 0.6, 1 };
+	};
+	class failed
+	{
+		title = "Mission Failure";
+		subtitle = "AMBASSADOR KILLED";
+		description = "The embassy was overrun and the ambassador was killed.";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = { 0.6,0.1,0.2,1 };
+	};
+	class flee
+	{
+		title = "Mission Failure";
+		subtitle = "COWARDESS";
+		description = "You disobeyed orders and fleed from the embassy!";
+		pictureBackground = "";
+		picture = "n_inf";
+		pictureColor[] = { 0.6,0.1,0.2,1 };
+	};
+	class intel
+    {
+        title = "Mission Failure";
+        subtitle = "INTEL STOLEN";
+        description = "The enemy made it into the ambassadors office and stole sensitive documents.";
+        pictureBackground = "";
+        picture = "n_inf";
+        pictureColor[] = { 0.6,0.1,0.2,1 };
+    };
+};
