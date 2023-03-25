@@ -29,6 +29,8 @@ if (!isDedicated) then
 {
 	[] call A2S_tasksSync;
 
+	#include "about.hpp"
+
 	doStop player;
 	sleep 2;
 	if (alive player) then 
