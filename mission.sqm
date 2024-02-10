@@ -8,7 +8,7 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=7311;
+		nextID=7313;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=205;
+		nextID=207;
 	};
 	class Camera
 	{
-		pos[]={3644.1575,179.06898,12412.833};
-		dir[]={0.25972968,-0.18361896,-0.94806367};
-		up[]={0.048516192,0.98299748,-0.17709351};
-		aside[]={-0.96446192,0,-0.26422212};
+		pos[]={3732.2886,35.248272,12311.478};
+		dir[]={-0.019888539,-0.35279298,0.93549007};
+		up[]={-0.0074986923,0.93570137,0.35271329};
+		aside[]={0.9997741,0,0.021255217};
 	};
 };
 binarizationWanted=0;
@@ -149,6 +149,7 @@ addons[]=
 	"A3_Weapons_F_Items",
 	"ace_medical_engine",
 	"ace_medical_treatment",
+	"ace_arsenal",
 	"A3_Structures_F_Heli_Items_Airport",
 	"A3_Ui_F",
 	"A3_Modules_F_Curator_Curator",
@@ -166,13 +167,14 @@ addons[]=
 	"A3_Characters_F_Patrol",
 	"rhsusf_c_weapons",
 	"A3_Weapons_F_Exp",
-	"UK3CB_BAF_Weapons_Ammo_RHS",
 	"ace_compat_rhs_usf3",
+	"UK3CB_BAF_Weapons_Ammo_RHS",
 	"A3_Characters_F_Orange_Headgear",
 	"UK3CB_Factions_ADM_B",
 	"UK3CB_Factions_ADA_B",
 	"UK3CB_BAF_Weapons_Ammo",
 	"RKSL_EOT552",
+	"ace_compat_rhs_usf3_arsenal",
 	"rhsusf_c_troops",
 	"A3_Characters_F_Enoch",
 	"A3_Weapons_F_Acc",
@@ -199,7 +201,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=109;
+		items=111;
 		class Item0
 		{
 			className="CUP_Editor_Sidewalks_Config";
@@ -710,212 +712,224 @@ class AddonsMetaData
 		};
 		class Item78
 		{
+			className="ace_arsenal";
+			name="ACE3 - Arsenal";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item79
+		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item79
+		class Item80
 		{
 			className="UK3CB_Factions_Weapons";
 			name="3CB Factions - Weapons";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item80
+		class Item81
 		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item81
+		class Item82
 		{
 			className="ace_overheating";
 			name="ACE3 - Overheating";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item82
+		class Item83
 		{
 			className="ace_ballistics";
 			name="ACE3 - Ballistics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item83
+		class Item84
 		{
 			className="ace_optics";
 			name="ACE3 - Optics";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item84
+		class Item85
 		{
 			className="UK3CB_Factions_CHC";
 			name="3CB Factions - CHC";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item85
+		class Item86
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item86
+		class Item87
 		{
 			className="A3_Characters_F_Patrol";
 			name="Arma 3 Patrol - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item87
+		class Item88
 		{
 			className="rhsusf_c_weapons";
 			name="RHSUSF Weapons & Accessories";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item88
+		class Item89
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item89
+		class Item90
+		{
+			className="ace_compat_rhs_usf3";
+			name="ACE3 - RHS USAF Compatibility";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item91
 		{
 			className="UK3CB_BAF_Weapons_Ammo_RHS";
 			name="3CB BAF Weapons - Ammo(RHS)";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item90
-		{
-			className="ace_compat_rhs_usf3";
-			name="ACE3 - RHS USF Compatibility";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item91
+		class Item92
 		{
 			className="UK3CB_Factions_ADM";
 			name="3CB Factions - ADM";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item92
+		class Item93
 		{
 			className="UK3CB_Factions_ADA";
 			name="3CB Factions - ADA";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item93
+		class Item94
 		{
 			className="UK3CB_BAF_Weapons_Ammo";
 			name="3CB BAF Weapons - Ammo";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item94
+		class Item95
 		{
 			className="RKSL_EOT552";
 			name="RKSL_EOT552";
 			author="RKSL Studios";
 		};
-		class Item95
+		class Item96
+		{
+			className="ace_compat_rhs_usf3_arsenal";
+			name="ace_compat_rhs_usf3_arsenal";
+		};
+		class Item97
 		{
 			className="rhsusf_c_troops";
 			name="RHSUSF Infantry & Equipment";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item96
+		class Item98
 		{
 			className="A3_Characters_F_Enoch";
 			name="Arma 3 Contact Platform - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item97
+		class Item99
 		{
 			className="ace_scopes";
 			name="ACE3 - Scopes";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item98
+		class Item100
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item99
+		class Item101
 		{
 			className="UK3CB_BAF_Equipment_Headset_PRR";
 			name="3CB BAF Equipment - Headset PRR";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item100
+		class Item102
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item101
+		class Item103
 		{
 			className="ace_laserpointer";
 			name="ACE3 - Laser Pointer";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item102
+		class Item104
 		{
 			className="ace_smallarms";
 			name="ACE3 - Small Arms";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item103
+		class Item105
 		{
 			className="UK3CB_Factions_MDF";
 			name="3CB Factions - MDF";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item104
+		class Item106
 		{
 			className="UK3CB_Factions_TKP";
 			name="3CB Factions - TKP";
 			author="3 Commando Brigade";
 			url="www.3commandobrigade.com";
 		};
-		class Item105
+		class Item107
 		{
 			className="rhsusf_sounds";
 			name="USF Sounds";
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
-		class Item106
+		class Item108
 		{
 			className="A3_Weapons_F_Mark";
 			name="Arma 3 Marksmen - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item107
+		class Item109
 		{
 			className="CUP_CAStructures_E_HouseA_A_Villa";
 			name="CUP_CAStructures_E_HouseA_A_Villa";
 		};
-		class Item108
+		class Item110
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
@@ -1022,7 +1036,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1902;
+		items=1903;
 		class Item0
 		{
 			dataType="Object";
@@ -23040,12 +23054,13 @@ class Mission
 				angles[]={0,2.3466649,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 			};
 			id=3766;
 			type="Land_PortableCabinet_01_closed_olive_F";
-			atlOffset=3.3460445;
+			atlOffset=0.16059685;
 		};
 		class Item1042
 		{
@@ -23061,7 +23076,7 @@ class Mission
 			};
 			id=3767;
 			type="Land_PortableCabinet_01_closed_olive_F";
-			atlOffset=0.32191849;
+			atlOffset=0.48310661;
 		};
 		class Item1043
 		{
@@ -23077,7 +23092,7 @@ class Mission
 			};
 			id=3768;
 			type="Land_PortableCabinet_01_closed_olive_F";
-			atlOffset=0.64093208;
+			atlOffset=0.80212021;
 		};
 		class Item1044
 		{
@@ -29140,7 +29155,7 @@ class Mission
 			};
 			id=4383;
 			type="Land_Can_V2_F";
-			atlOffset=1.0493889;
+			atlOffset=1.0883713;
 		};
 		class Item1370
 		{
@@ -29158,7 +29173,7 @@ class Mission
 			};
 			id=4384;
 			type="Land_Can_V3_F";
-			atlOffset=1.0354042;
+			atlOffset=1.0743942;
 		};
 		class Item1371
 		{
@@ -34211,6 +34226,7 @@ class Mission
 				sizeB=5;
 				sizeC=5;
 				activationBy="CIV";
+				useOwnerActivation=1;
 				isRectangle=1;
 				isServerOnly=1;
 			};
@@ -34401,6 +34417,7 @@ class Mission
 				sizeB=5;
 				sizeC=5;
 				activationBy="CIV";
+				useOwnerActivation=1;
 				isRectangle=1;
 				isServerOnly=1;
 			};
@@ -36476,6 +36493,7 @@ class Mission
 							class handgun
 							{
 								name="hgun_Pistol_heavy_02_F";
+								firemode="hgun_Pistol_heavy_02_F:Single";
 								class primaryMuzzleMag
 								{
 									name="6Rnd_45ACP_Cylinder";
@@ -36577,7 +36595,7 @@ class Mission
 				class Attribute0
 				{
 					property="groupID";
-					expression=" if (isNil 'CBA_fnc_setCallsign') then { _this setGroupID [_value]; } else { [_this, _value] call CBA_fnc_setCallsign; }; ";
+					expression="                            if (isNil 'CBA_fnc_setCallsign') then {                                _this setGroupID [_value];                            } else {                                [_this, _value] call CBA_fnc_setCallsign;                            };                        ";
 					class Value
 					{
 						class data
@@ -36621,6 +36639,7 @@ class Mission
 							{
 								name="rhs_weap_m4a1_mstock";
 								optics="optic_Holosight_smg_blk_F";
+								firemode="rhs_weap_m4a1_mstock:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -36658,7 +36677,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -36667,12 +36686,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -36768,6 +36797,7 @@ class Mission
 								name="rhs_weap_m4a1_mstock";
 								optics="RKSL_optic_EOT552_C";
 								flashlight="rhsusf_acc_wmx";
+								firemode="rhs_weap_m4a1_mstock:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -36799,7 +36829,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -36808,12 +36838,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=3;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -36915,6 +36955,7 @@ class Mission
 								optics="optic_Holosight_blk_F";
 								flashlight="rhsusf_acc_M952V";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -36946,7 +36987,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -36955,12 +36996,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=4;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=3;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -37061,6 +37112,7 @@ class Mission
 								optics="optic_Holosight";
 								flashlight="acc_flashlight";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37098,7 +37150,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37107,12 +37159,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=7;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -37229,6 +37291,7 @@ class Mission
 								optics="rhsusf_acc_EOTECH";
 								flashlight="acc_pointer_IR";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37260,7 +37323,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37269,12 +37332,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -37374,6 +37447,7 @@ class Mission
 								name="rhsusf_weap_MP7A2";
 								flashlight="acc_flashlight";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37405,7 +37479,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37414,12 +37488,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -37519,6 +37603,7 @@ class Mission
 								name="rhsusf_weap_MP7A2";
 								flashlight="acc_flashlight";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37550,7 +37635,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37559,12 +37644,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_splint";
+										count=1;
 									};
 								};
 							};
@@ -37664,6 +37759,7 @@ class Mission
 							{
 								name="rhsusf_weap_MP7A2";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37695,7 +37791,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37704,12 +37800,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=4;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -37810,6 +37916,7 @@ class Mission
 								name="rhsusf_weap_MP7A2";
 								flashlight="acc_flashlight";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37841,7 +37948,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37850,12 +37957,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
-										count=4;
+										count=1;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -37954,6 +38071,7 @@ class Mission
 								name="rhsusf_weap_MP7A2";
 								flashlight="acc_flashlight";
 								underBarrel="rhsusf_acc_grip3";
+								firemode="rhsusf_weap_MP7A2:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_mag_40Rnd_46x30_FMJ";
@@ -37985,7 +38103,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -37994,12 +38112,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=2;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=1;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -38114,6 +38242,7 @@ class Mission
 								name="rhs_weap_m4a1_d_mstock";
 								optics="rhsusf_acc_EOTECH";
 								flashlight="rhsusf_acc_wmx";
+								firemode="rhs_weap_m4a1_d_mstock:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -38139,7 +38268,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -38148,12 +38277,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=7;
+										count=3;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -38262,6 +38401,7 @@ class Mission
 								name="rhs_m4a1_m203_acog3_usmc_sup";
 								optics="rhsusf_acc_EOTECH";
 								flashlight="rhsusf_acc_wmx";
+								firemode="rhs_m4a1_m203_acog3_usmc_sup:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -38302,11 +38442,11 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=3;
 									};
 									class Item1
 									{
@@ -38317,6 +38457,16 @@ class Mission
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -38506,6 +38656,7 @@ class Mission
 								name="rhs_weap_m4a1_d_mstock";
 								optics="optic_Holosight_smg";
 								flashlight="rhsusf_acc_wmx";
+								firemode="rhs_weap_m4a1_d_mstock:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -38547,11 +38698,11 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=3;
 									};
 									class Item1
 									{
@@ -38562,6 +38713,16 @@ class Mission
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -38683,6 +38844,7 @@ class Mission
 								optics="rhsusf_acc_ACOG3_USMC";
 								flashlight="rhsusf_acc_wmx";
 								underBarrel="rhsusf_acc_harris_bipod";
+								firemode="rhs_weap_m27iar_bipod_acog_usmc_sup:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -38708,7 +38870,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -38717,12 +38879,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=3;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -38865,6 +39037,7 @@ class Mission
 								optics="optic_AMS_snd";
 								flashlight="rhsusf_acc_wmx";
 								underBarrel="rhsusf_acc_harris_bipod";
+								firemode="rhs_weap_sr25_sup_marsoc:Single";
 								class primaryMuzzleMag
 								{
 									name="rhsusf_20Rnd_762x51_SR25_m118_special_Mag";
@@ -38912,7 +39085,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -38926,7 +39099,17 @@ class Mission
 									class Item2
 									{
 										name="ACE_fieldDressing";
-										count=2;
+										count=3;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -38948,15 +39131,6 @@ class Mission
 										name="rhsusf_mag_7x45acp_MHP";
 										count=2;
 										ammoLeft=7;
-									};
-								};
-								class ItemCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="ACE_fieldDressing";
-										count=4;
 									};
 								};
 							};
@@ -39038,6 +39212,7 @@ class Mission
 								name="rhs_m4a1_m203_acog3_usmc_sup";
 								optics="rhsusf_acc_eotech_xps3";
 								flashlight="rhsusf_acc_wmx";
+								firemode="rhs_m4a1_m203_acog3_usmc_sup:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -39068,7 +39243,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -39077,12 +39252,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=7;
+										count=3;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -39282,6 +39467,7 @@ class Mission
 								optics="rhsusf_acc_ACOG3_USMC";
 								flashlight="rhsusf_acc_wmx";
 								underBarrel="rhsusf_acc_harris_bipod";
+								firemode="rhs_weap_m27iar_bipod_acog_usmc_sup:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -39307,7 +39493,7 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=4;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -39316,7 +39502,17 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=6;
+										count=3;
+									};
+									class Item2
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item3
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -39501,6 +39697,7 @@ class Mission
 								optics="rhsusf_acc_eotech_xps3";
 								flashlight="rhsusf_acc_wmx_bk";
 								underBarrel="rhsusf_acc_grip3_tan";
+								firemode="rhs_weap_m4a1_carryhandle_grip3:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -39542,7 +39739,7 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=3;
+									items=5;
 									class Item0
 									{
 										name="ACE_EarPlugs";
@@ -39551,12 +39748,22 @@ class Mission
 									class Item1
 									{
 										name="ACE_fieldDressing";
-										count=7;
+										count=3;
 									};
 									class Item2
 									{
 										name="ACE_morphine";
 										count=4;
+									};
+									class Item3
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item4
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -39684,6 +39891,7 @@ class Mission
 								optics="rhsusf_acc_eotech_xps3";
 								flashlight="rhsusf_acc_wmx_bk";
 								underBarrel="rhsusf_acc_kac_grip";
+								firemode="rhs_weap_m4a1_mstock:Single";
 								class primaryMuzzleMag
 								{
 									name="rhs_mag_30Rnd_556x45_M855_Stanag";
@@ -39740,7 +39948,7 @@ class Mission
 									class Item1
 									{
 										name="ACE_morphine";
-										count=4;
+										count=1;
 									};
 								};
 							};
@@ -39784,11 +39992,21 @@ class Mission
 								};
 								class ItemCargo
 								{
-									items=1;
+									items=3;
 									class Item0
 									{
 										name="ACE_fieldDressing";
-										count=10;
+										count=3;
+									};
+									class Item1
+									{
+										name="ACE_quikclot";
+										count=3;
+									};
+									class Item2
+									{
+										name="ACE_tourniquet";
+										count=1;
 									};
 								};
 							};
@@ -43343,6 +43561,34 @@ class Mission
 			id=7306;
 			type="SignAd_Sponsor_F";
 			atlOffset=0.66690445;
+		};
+		class Item1902
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10861.223,47.224892,9111.9072};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+					};
+					id=7312;
+					type="B_medic_F";
+				};
+			};
+			class Attributes
+			{
+			};
+			id=7311;
 		};
 	};
 	class Connections
